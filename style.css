@@ -1,6 +1,127 @@
 body{
     background-color: white;
     margin: 0px 30px;
-    padding: 10px 40px;
+    padding: 0px 40px;
     border: 1px solid black;
 }
+
+.main{
+    border: 5px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-grow:1;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.main .container{
+    width: 100%;
+    height: 23%;
+    border: 3px solid brown;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.main .container header{
+    border: 3px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.main .container header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.main .container .main-1{
+    border: 5px solid green;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+
+}
+p{
+
+}
+button{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.main .container-2{
+    height: 23%;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.main .container-2 .options{
+    border: 5px solid green;
+    display: flex;
+    gap:30px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2{
+
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.comments{
+    border: 5px solid green;
+    height: 23%;
+    width: 100%;
+
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.motivation{
+    border: 5px solid green;
+    height: 23%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
